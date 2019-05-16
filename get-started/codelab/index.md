@@ -700,10 +700,10 @@ class RandomWordsState extends State<RandomWords> {
 
 <!-- skip -->
 {% prettify dart %}
-  [[highlight]]void _pushSaved() {[[/highlight]]
+  void _pushSaved() {[[/highlight]]
     [[highlight]]Navigator.of(context).push([[/highlight]]
     [[highlight]]);[[/highlight]]
-  [[highlight]]}[[/highlight]]
+  [[highlight]]}
 {% endprettify %}
 </li>
 
